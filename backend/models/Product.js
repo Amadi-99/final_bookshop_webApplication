@@ -1,17 +1,16 @@
 const mongoose = require("mongoose");
-const { boolean } = require("webidl-conversions");
 
 const ProductSchema = new mongoose.Schema(
-    {
-      username: { type: String, required: true, unique: true },
-      email: { type: String, required: true, unique: true },
-      password: { type: String, required: true },
-      isAdmin: {
-        type: Boolean,
-        default: false,
-      },
-    },
-    { timestamps: true }
-  );
+  {
+    title: { type: String, required: true, unique: true },
+    desc: { type: String, required: true, },
+    img: { type: String, required: true },
+    categories: { type: Array },
+    size: { type: String },
+    price: { type: Number, required: true },
+    
+  },
+  { timestamps: true }
+);
 
 module.exports = mongoose.model("Product", ProductSchema);
