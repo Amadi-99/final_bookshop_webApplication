@@ -4,21 +4,21 @@ export const sliderItems = [
       img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
       title: "NEW PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "f5fafd",
+      bg: "cc99ff",
     },
     {
       id: 2,
       img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
       title: "FEATURED PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "fcf1ed",
+      bg: "99ffdd",
     },
     {
       id: 3,
       img: "https://img.apmcdn.org/b2a6d421ce625968cdc6bdaa1f43f308a898ce8e/normal/cfced3-20161019-scaryreads.jpg",
       title: "CLLECTIBLE BOOK",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "fbf0f4",
+      bg: "bfff80",
     },
   ];
 
