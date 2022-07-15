@@ -20,6 +20,7 @@ const FilterContainer = styled.div`
 const Filter = styled.div`
   margin: 20px;
   ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })}
+  
 `;
 
 const FilterText = styled.span`
@@ -27,12 +28,14 @@ const FilterText = styled.span`
   font-weight: 600;
   margin-right: 20px;
   ${mobile({ marginRight: "0px" })}
+  
 `;
 
 const Select = styled.select`
   padding: 10px;
   margin-right: 20px;
   ${mobile({ margin: "10px 0px" })}
+  
 `;
 const Option = styled.option``;
 
@@ -41,26 +44,30 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Announcement />
-      <Title>BOOKS</Title>
+      <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select>
             <Option disabled selected>
-              Order
+              Color
             </Option>
-            <Option>Popularity</Option>
-            <Option>Title A-Z</Option>
-            <Option>Title Z-A</Option>
-            <Option>Authors A-Z</Option>
-            <Option>Authors Z-A</Option>
+            <Option>White</Option>
+            <Option>Black</Option>
+            <Option>Red</Option>
+            <Option>Blue</Option>
+            <Option>Yellow</Option>
+            <Option>Green</Option>
           </Select>
           <Select>
             <Option disabled selected>
-              Arrivals
+              Size
             </Option>
-            <Option>Oldest</Option>
-            <Option>Newest</Option>
+            <Option>XS</Option>
+            <Option>S</Option>
+            <Option>M</Option>
+            <Option>L</Option>
+            <Option>XL</Option>
           </Select>
         </Filter>
         <Filter>

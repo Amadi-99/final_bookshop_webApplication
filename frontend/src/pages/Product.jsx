@@ -29,6 +29,7 @@ const InfoContainer = styled.div`
   flex: 1;
   padding: 0px 50px;
   ${mobile({ padding: "10px" })}
+  
 `;
 
 const Title = styled.h1`
@@ -50,6 +51,7 @@ const FilterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   ${mobile({ width: "100%" })}
+  
 `;
 
 const Filter = styled.div`
@@ -84,6 +86,7 @@ const AddContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   ${mobile({ width: "100%" })}
+  
 `;
 
 const AmountContainer = styled.div`
@@ -124,14 +127,32 @@ const Product = () => {
           <Image src="https://static.wixstatic.com/media/5a920c_a89beb3387a14be2af3f6523d6facbf3~mv2.png/v1/fill/w_500,h_555,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/light2nations1.png" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Light to the Nations </Title>
+          <Title>Light to the Nations</Title>
           <Desc>
           From the coming of Jesus Christ to the achievements of medieval Christendom to the threshold of 
           the Enlightenment projects of the 18th century, God’s work in history reveals itself. This book 
           combines narrative accounts with the necessary facts, dates, short biographies, and concept definitions
-           needed for a Christian cultural understanding. 
+           needed for a Christian cultural understanding.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>Rs. 2510</Price>
+          <FilterContainer>
+            <Filter>
+              <FilterTitle>Color</FilterTitle>
+              <FilterColor color="black" />
+              <FilterColor color="darkblue" />
+              <FilterColor color="gray" />
+            </Filter>
+            <Filter>
+              <FilterTitle>Size</FilterTitle>
+              <FilterSize>
+                <FilterSizeOption>XS</FilterSizeOption>
+                <FilterSizeOption>S</FilterSizeOption>
+                <FilterSizeOption>M</FilterSizeOption>
+                <FilterSizeOption>L</FilterSizeOption>
+                <FilterSizeOption>XL</FilterSizeOption>
+              </FilterSize>
+            </Filter>
+          </FilterContainer>
           <AddContainer>
             <AmountContainer>
               <Remove />
