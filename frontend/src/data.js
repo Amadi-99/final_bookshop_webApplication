@@ -27,16 +27,19 @@ export const sliderItems = [
       id: 1,
       img: "https://assets.londonist.com/uploads/2012/03/i730/mayoralbiogs-300x225.jpg",
       title: "Biography",
+      cat:"biography"
     },
     {
       id: 2,
       img: "https://di2ponv0v5otw.cloudfront.net/posts/2022/01/16/61e495642f3d192635bede39/m_61e49579ae766fc7bf40b7c9.jpg",
       title: "Children",
+      cat:"children"
     },
     {
       id: 3,
       img: "https://di2ponv0v5otw.cloudfront.net/posts/2022/01/04/61d4e81d463d4f2713d7e3c9/s_61d4e83609d760e7fe18244a.jpg",
       title: "Fiction",
+      cat:"fiction"
     },
   ];
 
