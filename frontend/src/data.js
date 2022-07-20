@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stephenking-index-1596489768.jpg",
       title: "NEW PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
       bg: "99c2ff",
     },
     {
       id: 2,
-      img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
+      img: "https://images-na.ssl-images-amazon.com/images/I/91FjPYMzjTS.jpg",
       title: "FEATURED PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
       bg: "ffe6e6",
     },
     {
       id: 3,
-      img: "https://img.apmcdn.org/b2a6d421ce625968cdc6bdaa1f43f308a898ce8e/normal/cfced3-20161019-scaryreads.jpg",
+      img: "https://dangobooks.com/wp-content/uploads/2021/07/mytery-20.png",
       title: "CLLECTIBLE BOOK",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
       bg: "e6fff2",

@@ -1,4 +1,5 @@
 import { Add, Remove } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -79,15 +80,6 @@ const ProductName = styled.span``;
 const ProductId = styled.span``;
 
 const ProductQty = styled.span``;
-
-const ProductColor = styled.div`
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: ${(props) => props.color};
-`;
-
-const ProductSize = styled.span``;
 
 const PriceDetail = styled.div`
   flex: 1;
@@ -175,13 +167,13 @@ const Cart = () => {
                 <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572293716-51ItgiZw5dL.jpg?crop=1xw:0.987xh;center,top&resize=980:*" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE 
+                    <b>Product:</b> THE WATER DANCE
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
                   <ProductQty>
-                    <b>Qty Avail:</b> 647
+                    <b>Qty Avail:</b> 64
                   </ProductQty>
                 </Details>
               </ProductDetail>
@@ -191,7 +183,7 @@ const Cart = () => {
                   <ProductAmount>2</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>Rs: 1030.00</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
@@ -200,13 +192,13 @@ const Cart = () => {
                 <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295284-41sRIihnXzL.jpg?crop=1xw:0.996xh;center,top&resize=980:*" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> HAKURA
+                    <b>Product:</b> BIRD BOX
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
                   <ProductQty>
-                    <b>Qty Avail:</b> 647
+                    <b>Qty Avail:</b> 47
                   </ProductQty>
                 </Details>
               </ProductDetail>
@@ -216,7 +208,7 @@ const Cart = () => {
                   <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$ 20</ProductPrice>
+                <ProductPrice>Rs:1500.00</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
@@ -224,21 +216,23 @@ const Cart = () => {
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>Rs:2530.00</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+              <SummaryItemPrice>Rs:500.00</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+              <SummaryItemPrice>RS:-150.00</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem type="total">
               <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>RS:2400.00</SummaryItemPrice>
             </SummaryItem>
+            <Link to={`/success`}>
             <Button>CHECKOUT NOW</Button>
+            </Link>
           </Summary>
         </Bottom>
       </Wrapper>

@@ -1,4 +1,5 @@
 import { Add, Remove } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -109,7 +110,7 @@ const Amount = styled.span`
 const Button = styled.button`
   padding: 15px;
   border: 2px solid teal;
-  background-color: white;
+  background-color: #99ccff;
   cursor: pointer;
   font-weight: 500;
   &:hover{
@@ -127,14 +128,14 @@ const Product = () => {
           <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295284-41sRIihnXzL.jpg?crop=1xw:0.996xh;center,top&resize=980:*" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Light to the Nations</Title>
+          <Title><h3>Light to the Nations</h3></Title>
           <Desc>
           From the coming of Jesus Christ to the achievements of medieval Christendom to the threshold of 
           the Enlightenment projects of the 18th century, God’s work in history reveals itself. This book 
           combines narrative accounts with the necessary facts, dates, short biographies, and concept definitions
            needed for a Christian cultural understanding.
           </Desc>
-          <Price>Rs. 2510</Price>
+          <Price><h5>Rs. 2510.00 </h5></Price>
           <FilterContainer>
             <Filter>
               <FilterTitle>Size</FilterTitle>
@@ -152,7 +153,9 @@ const Product = () => {
               <Amount>1</Amount>
               <Add />
             </AmountContainer>
+            <Link to={`/cart`}>
             <Button>ADD TO CART</Button>
+            </Link>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

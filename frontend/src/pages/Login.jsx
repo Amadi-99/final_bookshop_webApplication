@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import {mobile} from "../responsive";
 
@@ -8,7 +9,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://img.freepik.com/free-photo/stylish-girl-reading-book_23-2147666421.jpg?w=2000")
+    url("https://static.vecteezy.com/system/resources/previews/005/085/968/large_2x/beautiful-asian-woman-university-student-happy-on-yellow-background-free-photo.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -50,7 +51,7 @@ const Button = styled.button`
   margin-bottom: 10px;
 `;
 
-const Link = styled.a`
+const Links = styled.a`
   margin: 5px 0px;
   font-size: 12px;
   text-decoration: underline;
@@ -60,16 +61,24 @@ const Link = styled.a`
 const Login = () => {
   return (
     <Container>
+      
       <Wrapper>
+      
         <Title>SIGN IN</Title>
         <Form>
           <Input placeholder="username" />
           <Input placeholder="password" />
+          <Link to={`/home`}>
           <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          </Link>
+          <Links>DO NOT YOU REMEMBER THE PASSWORD?</Links>
+          <Link to={`/register`}>
+          <Links>CREATE A NEW ACCOUNT</Links>
+          </Link>
         </Form>
+      
       </Wrapper>
+      
     </Container>
   );
 };
