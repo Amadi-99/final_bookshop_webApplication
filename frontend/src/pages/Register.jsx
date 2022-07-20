@@ -72,7 +72,7 @@ const Register = () => {
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
           <Link to={`/home`}>
-          <Button>CREATE</Button>
+            <Button>CREATE</Button>
           </Link>
         </Form>
       </Wrapper>
