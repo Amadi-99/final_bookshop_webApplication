@@ -113,7 +113,7 @@ const Button = styled.button`
   cursor: pointer;
   font-weight: 500;
   &:hover{
-      background-color: #f8f4f4;
+      background-color: #0080ff;
   }
 `;
 
@@ -124,7 +124,7 @@ const Product = () => {
       <Announcement />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://static.wixstatic.com/media/5a920c_a89beb3387a14be2af3f6523d6facbf3~mv2.png/v1/fill/w_500,h_555,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/light2nations1.png" />
+          <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295284-41sRIihnXzL.jpg?crop=1xw:0.996xh;center,top&resize=980:*" />
         </ImgContainer>
         <InfoContainer>
           <Title>Light to the Nations</Title>
@@ -137,19 +137,12 @@ const Product = () => {
           <Price>Rs. 2510</Price>
           <FilterContainer>
             <Filter>
-              <FilterTitle>Color</FilterTitle>
-              <FilterColor color="black" />
-              <FilterColor color="darkblue" />
-              <FilterColor color="gray" />
-            </Filter>
-            <Filter>
               <FilterTitle>Size</FilterTitle>
               <FilterSize>
-                <FilterSizeOption>XS</FilterSizeOption>
-                <FilterSizeOption>S</FilterSizeOption>
-                <FilterSizeOption>M</FilterSizeOption>
-                <FilterSizeOption>L</FilterSizeOption>
-                <FilterSizeOption>XL</FilterSizeOption>
+                <FilterSizeOption>A1</FilterSizeOption>
+                <FilterSizeOption>A2</FilterSizeOption>
+                <FilterSizeOption>A3</FilterSizeOption>
+                <FilterSizeOption>A4</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>

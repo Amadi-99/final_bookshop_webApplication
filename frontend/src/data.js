@@ -4,76 +4,76 @@ export const sliderItems = [
       img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
       title: "NEW PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "cc99ff",
+      bg: "99c2ff",
     },
     {
       id: 2,
       img: "https://d1gbp99v447ls8.cloudfront.net/wp-content/uploads/2021/12/15110844/drug-crime-fiction.png",
       title: "FEATURED PRODUCT",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "99ffdd",
+      bg: "ffe6e6",
     },
     {
       id: 3,
       img: "https://img.apmcdn.org/b2a6d421ce625968cdc6bdaa1f43f308a898ce8e/normal/cfced3-20161019-scaryreads.jpg",
       title: "CLLECTIBLE BOOK",
       desc: "Discover new books, reviews, and interviews with your favorite authors.",
-      bg: "bfff80",
+      bg: "e6fff2",
     },
   ];
 
   export const categories = [
     {
       id: 1,
-      img: "https://assets.londonist.com/uploads/2012/03/i730/mayoralbiogs-300x225.jpg",
-      title: "Biography",
-      cat:"biography"
+      img: "https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/f45f7e65-406d-47b6-8783-4a3a32d11acf/books-to-read-once-in-your-lifetime-header.jpg",
+      title: "FANTACY",
+      cat:"Fantacy"
     },
     {
       id: 2,
-      img: "https://di2ponv0v5otw.cloudfront.net/posts/2022/01/16/61e495642f3d192635bede39/m_61e49579ae766fc7bf40b7c9.jpg",
-      title: "Children",
-      cat:"children"
+      img: "https://i.insider.com/59dbab386d80ad1e008b50d6?width=1000&format=jpeg&auto=webp",
+      title: "HORROR",
+      cat:"Horror"
     },
     {
       id: 3,
-      img: "https://di2ponv0v5otw.cloudfront.net/posts/2022/01/04/61d4e81d463d4f2713d7e3c9/s_61d4e83609d760e7fe18244a.jpg",
-      title: "Fiction",
-      cat:"fiction"
+      img: "https://media.npr.org/assets/img/2022/06/10/untitled-design-16-_custom-3171c7095dc341cf14395d6e954c27a1515da1b7.jpg",
+      title: "CLASSICS",
+      cat:"Classics"
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://static.wixstatic.com/media/ca5a16_e841557d534f416ea18f2248d52c7b6b~mv2.png/v1/fill/w_554,h_729,al_c,lg_1,q_90,enc_auto/whywait-mockup.png",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572293716-51ItgiZw5dL.jpg?crop=1xw:0.987xh;center,top&resize=980:*",
     },
     {
       id:2,
-      img:"https://images-na.ssl-images-amazon.com/images/I/41BzklN%2BwWL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572293746-51dzuwLmm-L.jpg?crop=1.00xw:0.932xh;0,0.0540xh&resize=980:*",
     },
     {
       id:3,
-      img:"https://images-na.ssl-images-amazon.com/images/I/714VnjKTvzL._AC_UL604_SR604,400_.jpg",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295284-41sRIihnXzL.jpg?crop=1xw:0.996xh;center,top&resize=980:*",
     },
     {
       id:4,
-      img:"https://www.ims-online.com/images/books/Thomas_Maura_book2.png",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295266-51gyXcg1P2L.jpg?crop=1.00xw:0.974xh;0,0.0240xh&resize=980:*",
     },
     {
       id:5,
-      img:"https://www.pngmart.com/files/8/Book-Cover-PNG-Clipart.png",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295234-51dRjo8NJeL.jpg?crop=1.00xw:0.896xh;0.00336xw,0.102xh&resize=980:*",
     },
     {
       id:6,
-      img:"https://images-na.ssl-images-amazon.com/images/I/417BA65jFpL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572292658-51IXWZzlgSL.jpg?crop=1xw:0.996xh;center,top&resize=980:*",
     },
     {
       id:7,
-      img:"https://images-na.ssl-images-amazon.com/images/I/41aMh056w6L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572292680-51xJASXQJwL.jpg?crop=1.00xw:0.978xh;0,0.0120xh&resize=980:*",
     },
     {
       id:8,
-      img:"https://images-eu.ssl-images-amazon.com/images/I/416eyllg3XL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+      img:"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572292709-41Rdzbiqh7L.jpg?crop=1.00xw:0.974xh;0,0.0160xh&resize=980:*",
     },
   ]

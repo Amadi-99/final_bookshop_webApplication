@@ -30,7 +30,7 @@ const TopButton = styled.button`
   cursor: pointer;
   border: ${(props) => props.type === "filled" && "none"};
   background-color: ${(props) =>
-    props.type === "filled" ? "black" : "transparent"};
+    props.type === "filled" ? "#0080ff" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
@@ -148,7 +148,7 @@ const SummaryItemPrice = styled.span``;
 const Button = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: black;
+  background-color: #0080ff;
   color: white;
   font-weight: 600;
 `;
@@ -172,7 +172,7 @@ const Cart = () => {
           <Info>
             <Product>
               <ProductDetail>
-                <Image src="https://www.ims-online.com/images/books/Thomas_Maura_book2.png" />
+                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572293716-51ItgiZw5dL.jpg?crop=1xw:0.987xh;center,top&resize=980:*" />
                 <Details>
                   <ProductName>
                     <b>Product:</b> JESSIE 
@@ -197,7 +197,7 @@ const Cart = () => {
             <Hr />
             <Product>
               <ProductDetail>
-                <Image src="https://www.pngmart.com/files/8/Book-Cover-PNG-Clipart.png" />
+                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572295284-41sRIihnXzL.jpg?crop=1xw:0.996xh;center,top&resize=980:*" />
                 <Details>
                   <ProductName>
                     <b>Product:</b> HAKURA
